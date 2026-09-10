@@ -97,4 +97,10 @@
     align-items: flex-start !important;
     gap: 6px !important;
   }
+
+  /* Square image slots sized as 50% on desktop: go full-width on mobile */
+  #s2-square-slot,
+  #s3-square-slot {
+    width: 100% !important;
+  }
 }
