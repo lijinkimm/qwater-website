@@ -72,6 +72,7 @@
   [data-ruler-mid] {
     position: static !important;
     align-self: auto !important;
+    width: 100% !important;
   }
 
   /* first child = heading block, second child = KR/EN text block */
