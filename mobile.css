@@ -74,7 +74,13 @@
     margin-right: 0 !important;
   }
 
-  [data-ruler-box] {
+  /* Must stay position:relative — it's the containing block for the
+     absolutely-positioned (inset:0) cover image/video inside it. The
+     generic "section > *" rule above forces position:static, which lets
+     that image escape its box and blow up to the wrong size; this rule
+     needs higher selector specificity to win back over it. */
+  section[data-screen-label] > [data-ruler-box] {
+    position: relative !important;
     width: 100% !important;
     margin-bottom: 14px !important;
   }
@@ -111,11 +117,5 @@
     flex-direction: column !important;
     align-items: flex-start !important;
     gap: 6px !important;
-  }
-
-  /* Square image slots sized as 50% on desktop: go full-width on mobile */
-  #s2-square-slot,
-  #s3-square-slot {
-    width: 100% !important;
   }
 }
