@@ -118,4 +118,12 @@
     align-items: flex-start !important;
     gap: 6px !important;
   }
+
+  /* These infographic thumbnails are 1:1 like the box image above them
+     (inline width:50% is a desktop-only half-width layout) — go full
+     width on mobile so both squares in the section match. */
+  #s2-square-slot,
+  #s3-square-slot {
+    width: 100% !important;
+  }
 }
