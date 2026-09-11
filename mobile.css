@@ -134,6 +134,7 @@
   #s43-price-card {
     display: flex !important;
     flex-direction: column !important;
+    width: 100% !important;
     height: auto !important;
   }
 }
