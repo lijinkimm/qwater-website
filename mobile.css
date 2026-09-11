@@ -30,6 +30,16 @@
     margin-left: -5px !important;
   }
 
+  /* THERME wordmark (AMAC-Architectured-Bed.dc.html only) — scale down to
+     stay proportional to the shrunk logo above. */
+  #therme-wordmark > div:first-child {
+    font-size: 32px !important;
+  }
+  #therme-wordmark > div:last-child {
+    font-size: 11px !important;
+    margin-top: 4px !important;
+  }
+
   header > div {
     border-left: none !important;
     padding-left: 0 !important;
