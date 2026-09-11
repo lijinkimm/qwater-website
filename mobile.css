@@ -20,6 +20,16 @@
     padding: 20px 18px 0 18px !important;
   }
 
+  /* Logo is a fixed 100px-tall raster image (~452px wide) that overflows
+     a mobile viewport and gets clipped by the page wrapper's
+     overflow-x:hidden, cutting off the end of "QWATER". Shrink it to fit,
+     and reduce the compensating negative margin (see inline style)
+     proportionally so it still lines up with the heading below it. */
+  header img {
+    height: 64px !important;
+    margin-left: -5px !important;
+  }
+
   header > div {
     border-left: none !important;
     padding-left: 0 !important;
