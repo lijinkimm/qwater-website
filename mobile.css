@@ -141,7 +141,8 @@
      the :first-child and :last-child rules above (which force
      display:block for the usual heading/text pair) — win it back with
      an ID selector so the card keeps its flex column layout. */
-  #s43-price-card {
+  #s43-price-card,
+  #s6-price-card {
     display: flex !important;
     flex-direction: column !important;
     width: 100% !important;
