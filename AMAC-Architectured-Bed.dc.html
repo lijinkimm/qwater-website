@@ -87,7 +87,7 @@
   </div>
 
   <main style="position: relative; padding: 0 45px 0 25px; display: flex; flex-direction: column; gap: 24px;">
-    <div aria-hidden="true" ref="{{ rulerRef }}" style="position: absolute; top: 0; right: 0; width: 60px; height: 100%; pointer-events: none; z-index: 2;">
+    <div aria-hidden="true" ref="{{ rulerRef }}" style="display: none; position: absolute; top: 0; right: 0; width: 60px; height: 100%; pointer-events: none; z-index: 2;">
       <sc-for list="{{ ticks }}" as="t" hint-placeholder-count="24">
         <div style="position: absolute; right: 0; top: {{ t.top }}px; width: {{ t.w }}px; height: 1px; background: #c9c9c9;"></div>
       </sc-for>
