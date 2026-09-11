@@ -470,7 +470,25 @@
 
     <section id="s9" data-screen-label="09 SITTING IS NOT NEUTRAL." style="position: relative; display: grid; grid-template-columns: minmax(0, 2.6fr) minmax(0, 1fr); gap: 28px; align-items: center;">
       <div data-ruler-box="1" style="position: relative; aspect-ratio: 10 / 5;">
-        <img src="uploads/AMAC BED WIDE_3.png" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block;">
+        <video id="s9-video" src="uploads/videos/sitting-is-not-neutral.mp4" autoPlay="{{ true }}" loop="{{ true }}" muted="{{ true }}" playsInline="{{ true }}" preload="auto" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block;"></video>
+        <script>
+          (function () {
+            var v = document.getElementById('s9-video');
+            if (!v) return;
+            var enforce = function () {
+              if (!v.muted) v.muted = true;
+              if (!v.hasAttribute('muted')) v.setAttribute('muted', '');
+              if (v.paused) v.play().catch(function () {});
+            };
+            enforce();
+            v.addEventListener('loadeddata', enforce);
+            var tries = 0;
+            var iv = setInterval(function () {
+              enforce();
+              if (++tries > 40) clearInterval(iv);
+            }, 250);
+          })();
+        </script>
       </div>
       <div data-ruler-mid="1" style="position: relative; align-self: stretch;">
         <div style="position: absolute; left: 0; right: 0; bottom: 50%; padding-bottom: 30px;">
@@ -679,7 +697,25 @@
 
     <section id="s20" data-screen-label="20 CIRCULATION CARE." style="position: relative; display: grid; grid-template-columns: minmax(0, 2.6fr) minmax(0, 1fr); gap: 28px; align-items: center;">
       <div data-ruler-box="1" style="position: relative; aspect-ratio: 10 / 5;">
-        <img src="uploads/AMAC BED WIDE_5.png" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block;">
+        <video id="s20-video" src="uploads/videos/circulation-care.mp4" autoPlay="{{ true }}" loop="{{ true }}" muted="{{ true }}" playsInline="{{ true }}" preload="auto" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block;"></video>
+        <script>
+          (function () {
+            var v = document.getElementById('s20-video');
+            if (!v) return;
+            var enforce = function () {
+              if (!v.muted) v.muted = true;
+              if (!v.hasAttribute('muted')) v.setAttribute('muted', '');
+              if (v.paused) v.play().catch(function () {});
+            };
+            enforce();
+            v.addEventListener('loadeddata', enforce);
+            var tries = 0;
+            var iv = setInterval(function () {
+              enforce();
+              if (++tries > 40) clearInterval(iv);
+            }, 250);
+          })();
+        </script>
       </div>
       <div data-ruler-mid="1" style="position: relative; align-self: stretch;">
         <div style="position: absolute; left: 0; right: 0; bottom: 50%; padding-bottom: 30px;">
@@ -945,7 +981,25 @@
 
     <section id="s34" data-screen-label="34 AFTER RUNNING." style="position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 28px; align-items: center;">
       <div data-ruler-box="1" style="position: relative; aspect-ratio: 5 / 5;">
-        <img src="uploads/AMAC ARCHITECTURE  BED/AMAC ARCHITECTURE  BED_28.png" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block;">
+        <video id="s34-video" src="uploads/videos/after-running.mp4" autoPlay="{{ true }}" loop="{{ true }}" muted="{{ true }}" playsInline="{{ true }}" preload="auto" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block;"></video>
+        <script>
+          (function () {
+            var v = document.getElementById('s34-video');
+            if (!v) return;
+            var enforce = function () {
+              if (!v.muted) v.muted = true;
+              if (!v.hasAttribute('muted')) v.setAttribute('muted', '');
+              if (v.paused) v.play().catch(function () {});
+            };
+            enforce();
+            v.addEventListener('loadeddata', enforce);
+            var tries = 0;
+            var iv = setInterval(function () {
+              enforce();
+              if (++tries > 40) clearInterval(iv);
+            }, 250);
+          })();
+        </script>
       </div>
       <div data-ruler-mid="1" style="position: relative; align-self: stretch;">
         <div style="position: absolute; left: 0; right: 0; bottom: 50%; padding-bottom: 30px;">
@@ -964,7 +1018,25 @@
 
     <section id="s35" data-screen-label="35 AFTER GOLF." style="position: relative; display: grid; grid-template-columns: minmax(0, 2.6fr) minmax(0, 1fr); gap: 28px; align-items: center;">
       <div data-ruler-box="1" style="position: relative; aspect-ratio: 10 / 5;">
-        <img src="uploads/AMAC BED WIDE_7-3285fce1.png" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block;">
+        <video id="s35-video" src="uploads/videos/after-golf.mp4" autoPlay="{{ true }}" loop="{{ true }}" muted="{{ true }}" playsInline="{{ true }}" preload="auto" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block;"></video>
+        <script>
+          (function () {
+            var v = document.getElementById('s35-video');
+            if (!v) return;
+            var enforce = function () {
+              if (!v.muted) v.muted = true;
+              if (!v.hasAttribute('muted')) v.setAttribute('muted', '');
+              if (v.paused) v.play().catch(function () {});
+            };
+            enforce();
+            v.addEventListener('loadeddata', enforce);
+            var tries = 0;
+            var iv = setInterval(function () {
+              enforce();
+              if (++tries > 40) clearInterval(iv);
+            }, 250);
+          })();
+        </script>
       </div>
       <div data-ruler-mid="1" style="position: relative; align-self: stretch;">
         <div style="position: absolute; left: 0; right: 0; bottom: 50%; padding-bottom: 30px;">
