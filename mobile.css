@@ -30,6 +30,15 @@
     margin-left: -5px !important;
   }
 
+  /* This page's logo variant includes two extra tagline lines below the
+     "+amac THERME" row, so at the same total height its "amac" mark
+     renders smaller than on other pages. Scale it up proportionally
+     (same 132.7/100 ratio used on desktop) to keep the mark's visual
+     size consistent site-wide. */
+  #therme-logo-img {
+    height: 85px !important;
+  }
+
 
   header > div {
     border-left: none !important;
