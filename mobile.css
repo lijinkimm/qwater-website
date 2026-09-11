@@ -4,6 +4,14 @@
    (not inline-style-string matching, which breaks once the framework
    re-serializes style attributes) plus !important to win over them. */
 
+/* Safety net: never let the page itself grow a horizontal scrollbar.
+   The per-page wrapper's min-width was lowered to 1300px so common
+   laptop widths (1366/1440+) fit without scrolling; this catches any
+   narrower or unanticipated case instead of letting content scroll. */
+html, body {
+  overflow-x: hidden;
+}
+
 @media (max-width: 768px) {
 
   /* The single top-level wrapper (parent of <header>) forces 1600px min-width */
