@@ -39,6 +39,14 @@
     height: 85px !important;
   }
 
+  /* TARMO's logo has a different aspect ratio; this height keeps its
+     "+amac" mark the same size as the QWATER logo's on mobile, and the
+     margin lines its ink edge up with the heading below. */
+  #tarmo-logo-img {
+    height: 61px !important;
+    margin-left: -12px !important;
+  }
+
 
   header > div {
     border-left: none !important;
