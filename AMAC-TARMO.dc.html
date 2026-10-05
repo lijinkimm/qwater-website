@@ -66,11 +66,7 @@
     </div>
   </header>
 
-  <div style="display: grid; grid-template-columns: minmax(0, 1fr) 480px 560px; gap: 28px; align-items: start; padding: 26px 45px 40px 25px;">
-    <h1 style="margin: 0; font-family: 'Jost', sans-serif; font-size: 42px; font-weight: 200; letter-spacing: -0.01em; line-height: 1.1; text-wrap: balance;">AMAC TARMO</h1>
-  </div>
-
-  <main style="position: relative; padding: 0 45px 0 25px; display: flex; flex-direction: column; gap: 24px;">
+  <main style="position: relative; padding: 40px 45px 0 25px; display: flex; flex-direction: column; gap: 24px;">
     <div aria-hidden="true" ref="{{ rulerRef }}" style="position: absolute; top: 0; right: 0; width: 60px; height: 100%; pointer-events: none; z-index: 2;">
       <sc-for list="{{ ticks }}" as="t" hint-placeholder-count="24">
         <div style="position: absolute; right: 0; top: {{ t.top }}px; width: {{ t.w }}px; height: 1px; background: #c9c9c9;"></div>
